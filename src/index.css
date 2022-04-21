@@ -5,9 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ZAVP4H_AUQBgNauKV43Ej9yXXJ42TnOYaw&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 0.1; */
+}
+h1{
+  color: #fff;
+  font-family: cursive;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: Roboto;
 }

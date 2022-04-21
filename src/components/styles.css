@@ -1,0 +1,27 @@
+.screen{
+    border: 2px solid rgb(129, 129, 129);
+    width: 100%;
+    max-width: 300px;
+    min-height: 40px;
+    margin: auto;
+    padding: 25px;
+    border-top-right-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.container {
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.btn{
+    padding: 25px;
+    font-size: 2rem;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(197, 184, 184);
+    border: none;
+}
