@@ -1,33 +1,26 @@
 import React from 'react'
 import "./styles.css"
 
-const BoardButton = () => {
+const BoardButton = ({HandleSolution, resetHandle, handleSubmit}) => {
 
-    // const [output, setOutput] = useState("0")
-
-    // const HandleSolution = (v) => {
-    //   output += v;
-    //   console.log(v)
-    //   setOutput(output)
-    // }
   return (
     <div className='container'>
-        <button className='btn'>7</button>
-        <button className='btn'>8</button>
-        <button className='btn'>9</button>
-        <button className='btn'>/</button>
-        <button className='btn'>6</button>
-        <button className='btn'>5</button>
-        <button className='btn'>4</button>
-        <button className='btn'>*</button>
-        <button className='btn'>3</button>
-        <button className='btn'>2</button>
-        <button className='btn'>1</button>
-        <button className='btn'>+</button>
-        <button className='btn'>C</button>
-        <button className='btn'>0</button>
-        <button className='btn'>=</button>
-        <button className='btn'>-</button>
+        <button className='btn' onClick={() => HandleSolution("7")}>7</button>
+        <button className='btn' onClick={() => HandleSolution("8")}>8</button>
+        <button className='btn' onClick={() => HandleSolution("9")}>9</button>
+        <button className='btn' onClick={() => HandleSolution("/")}>/</button>
+        <button className='btn' onClick={() => HandleSolution("6")}>6</button>
+        <button className='btn' onClick={() => HandleSolution("5")}>5</button>
+        <button className='btn' onClick={() => HandleSolution("4")}>4</button>
+        <button className='btn' onClick={() => HandleSolution("*")}>*</button>
+        <button className='btn' onClick={() => HandleSolution("3")}>3</button>
+        <button className='btn' onClick={() => HandleSolution("2")}>2</button>
+        <button className='btn' onClick={() => HandleSolution("1")}>1</button>
+        <button className='btn' onClick={() => HandleSolution("+")}>+</button>
+        <button className='btn' onClick={() => resetHandle("C")}>C</button>
+        <button className='btn' onClick={() => HandleSolution("0")}>0</button>
+        <button className='btn' onClick={() => handleSubmit("=")}>=</button>
+        <button className='btn' onClick={() => HandleSolution("-")}>-</button>
     </div>
   )
 }

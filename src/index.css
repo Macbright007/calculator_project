@@ -9,7 +9,9 @@ body {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ZAVP4H_AUQBgNauKV43Ej9yXXJ42TnOYaw&usqp=CAU");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
   /* opacity: 0.1; */
+  
 }
 h1{
   color: #fff;

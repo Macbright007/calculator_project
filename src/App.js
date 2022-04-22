@@ -13,7 +13,7 @@ const App = () => {
   }
    
   const handleSubmit = () =>{
-    {setOutput(eval(output))  && setOutput("")}
+    setOutput(eval(output))
   }
   const resetHandle = () => {
     setOutput("0")

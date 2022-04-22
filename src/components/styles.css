@@ -8,6 +8,11 @@
     border-top-right-radius: 10px;
     background-color: whitesmoke;
 }
+.screen span{
+    float: right;
+    font-size: 2em;
+    font-weight: 600;
+}
 
 .container {
     width: 100%;

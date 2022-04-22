@@ -4,7 +4,7 @@ import "./styles.css"
 const Screen = ({ output}) => {
   return (
     <div className='screen'>
-        { output }
+        <span>{ output }</span>
     </div>
   )
 }
